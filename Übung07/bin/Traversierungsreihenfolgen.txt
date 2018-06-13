@@ -1,0 +1,11 @@
+Traversierungsreihenfolgen
+
+PreOrder:
+10, 5, 3, 4, 7, 12, 15, 13
+
+PostOrder:
+4, 3, 7, 5, 13, 15, 12, 10
+
+InOrder:
+3, 4, 5, 7, 10, 12, 13, 15
+
