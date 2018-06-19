@@ -20,7 +20,15 @@ public class DoubleList
 	
 	public void setHead(DoubleNode head)
 	{
-		this.head = head;
+		if (this.head == null)
+		{
+			this.head = head;
+		}
+		else
+		{
+			head.setNext(this.head.getNext());
+			this.head = head;
+		}
 	}
 	
 	public void add(double d)
